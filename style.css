@@ -1,0 +1,170 @@
+body{
+margin: 7%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding: 2%;
+background-color:rgb(224, 238, 210)
+
+
+}
+img{
+align-content: center;
+align-items: center;
+width: 200px;
+height: 200px; 
+border: 5px dashed #111111;
+}
+
+
+
+h1{
+    color: rgb(249, 253, 248);
+    font-family: 'Chela One', cursive; 
+    text-align: center; 
+    font-size: 400%;
+    
+
+}
+h3{
+    color: rgb(47, 165, 17);
+    font-family: 'Chela One', cursive;
+    font-family: 'Freehand', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mynerve', cursive;
+    text-decoration: underline;
+    background-color: beige;
+    
+}
+a{
+    color: rgb(19, 19, 20);
+}
+.titulo{
+    background-image: url(https://png.pngtree.com/background/20210714/original/pngtree-green-watercolor-background-and-abstract-texture-background-picture-image_1230214.jpg);
+    background-color: rgb(253, 253, 253);
+    color:rgb(15, 133, 40)
+    
+
+}
+
+.comienzo{
+    text-align:center ;
+    background-image: url(https://png.pngtree.com/background/20210714/original/pngtree-green-watercolor-background-and-abstract-texture-background-picture-image_1230214.jpg);
+}
+.collage{
+    text-align: justify;
+    width: 100%;
+    height: 150%;
+}
+.definicion{
+    text-align: justify;
+}
+p{
+    text-align: justify;
+    
+}
+.segunda-img{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+}
+h2{
+    color: rgb(6, 53, 14);
+    text-align: center;
+    background-color:rgb(133, 202, 105);
+}
+.parte-dos{
+    
+    background-color: beige;
+    padding: 2%;
+    border: 2px dashed #111111;
+   
+}
+.primero{
+b
+}
+.encabezado{
+    background-color: rgb(22, 124, 22);
+   
+}
+.subindice{
+    text-align: center;
+}
+.types{
+
+    background-color: rgb(219, 235, 147);
+    padding: 8%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px dashed #111111;
+
+}
+    
+
+.fuentes{
+    background-color: rgb(133, 189, 135);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    }
+
+
+.datos-curiosos h3{
+    color: rgb(15, 15, 15);
+    text-align: center;
+    text-decoration: none;
+}
+.dato1{
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.datos-curiosos p{
+   margin: 10px;
+}
+
+.dato2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+} 
+.dato3{
+    display: flex;
+    justify-content:center;
+    align-items: center;  
+}
+.dato4{
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+}
+.dato5{
+    display: flex;
+    justify-content:center;
+    align-items: center;  
+}
+.galeria{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria img{
+   border: none;
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    filter: brightness(80%);
+    transition: .7s ease;
+}
+.galeria img:hover{
+    width: 500px;
+    opacity: 1;
+    filter: brightness(130%);
+}
